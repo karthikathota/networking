@@ -16,7 +16,7 @@ leading to the adoption of IPv6 (Internet Protocol version 6) as the next-genera
 
 ## IPV6
 
-->IPv6 (Internet Protocol version 6) is the most recent version of the Internet Protocol (IP) and serves as the successor to IPv4. It was developed to address the limitations of IPv4,
+IPv6 (Internet Protocol version 6) is the most recent version of the Internet Protocol (IP) and serves as the successor to IPv4. It was developed to address the limitations of IPv4,
 primarily the exhaustion of available IPv4 addresses.
 
 IPv6 addresses are 128 bits long, expressed in hexadecimal format (e.g., 2001:0db8:85a3:0000:0000:8a2e:0370:7334). The 128-bit address space allows for a virtually infinite number of unique IP addresses,
