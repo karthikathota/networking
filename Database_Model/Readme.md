@@ -6,9 +6,9 @@ There are several types of database models
 
 ### 1.Relational Database Model:
 
-=> Data is organized into tables with rows and columns. < br />
-=> Tables are related to each other through keys (primary and foreign keys). < br />
-=> Examples of relational database systems include MySQL, PostgreSQL, Oracle, and Microsoft SQL Server. < br />
+Data is organized into tables with rows and columns.
+Tables are related to each other through keys (primary and foreign keys).
+Examples of relational database systems include MySQL, PostgreSQL, Oracle, and Microsoft SQL Server.
 
 ### 2.Hierarchical Database Model:
 
