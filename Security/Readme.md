@@ -36,3 +36,9 @@ print(f"SHA-256 hash: {hashed_string}")
 
 # Output :- SHA-256 hash: d9b5f58f0b38198293971865a14074f59eba3e82595becbe86ae51f1d9f1f65e
 ```
+
+```python
+encoded_string = input_string.encode()
+```
+
+This step is necessary as the hash fucntion requires byte input.
