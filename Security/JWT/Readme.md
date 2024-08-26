@@ -11,7 +11,7 @@ A token is a string that contains some information that can be verified securely
 ![](img/TOKEN_STRUCT.png)
 
 This token generally consists of 3 parts  
-```text
+
 1) Header: Consists of two parts:  
     a)The signing algorithm that’s being used.  
     The type of token, which, in this case, is mostly “JWT”.  
