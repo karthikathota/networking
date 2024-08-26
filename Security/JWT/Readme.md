@@ -7,4 +7,11 @@ When respone is send from auth server there is no way that API's can verify the 
 ### Token 
 
 A token is a string that contains some information that can be verified securely. It could be a random set of alphanumeric characters which point to an ID in the database, or it could be an encoded JSON that can be self-verified
+
 ![](img/TOKEN_STRUCT.png)
+
+This token generally consists of 3 parts  
+```text
+1) Header: Consists of two parts:  
+    a)The signing algorithm that’s being used.  
+    The type of token, which, in this case, is mostly “JWT”.  
