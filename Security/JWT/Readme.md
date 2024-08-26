@@ -7,4 +7,4 @@ When respone is send from auth server there is no way that API's can verify the 
 ### Token 
 
 A token is a string that contains some information that can be verified securely. It could be a random set of alphanumeric characters which point to an ID in the database, or it could be an encoded JSON that can be self-verified
-![](Security/JWT/img/TOKEN_STRUCT.png)
+![](img/TOKEN_STRUCT.png)
