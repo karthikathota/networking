@@ -42,3 +42,24 @@ encoded_string = input_string.encode()
 ```
 
 This step is necessary as the hash fucntion requires byte input.
+
+# Encryption
+
+Encryption is a process of converting plaintext (readable data) into ciphertext (encoded data) using an algorithm and a key.  
+Unlike hashing in encryption we can get the original value back by decrypting the ciphertext.  
+One of the main part of encryption and decryption is KEY. It is a piece of information used by encryption and decryption algorithms. It’s critical for the security of the encrypted data.  
+There are 2 types of encryptions:-  
+1) Symmetric Encryption  
+2)Asymmetric Encryption  
+
+### Symmetric Encryption
+
+In symmetric encryption we use same key for both encryption and decryption.  
+Example:- AES, DES  
+
+```python
+
+```
+### Asymmetric Encryption
+
+In asymmetric encryption we use 2 types of keys i.e a public key and a private key. Public key is used for encryption and Private key is used for decryption.  
