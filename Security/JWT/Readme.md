@@ -14,4 +14,9 @@ This token generally consists of 3 parts
 
 1) Header: Consists of two parts:  
     a)The signing algorithm that’s being used.  
-    The type of token, which, in this case, is mostly “JWT”.  
+    b)The type of token, which, in this case, is mostly “JWT”.  
+2) Payload: The payload contains the claims or the JSON object.
+3) Signature: A string that is generated via a cryptographic algorithm that can be used to verify the integrity of the JSON payload.
+
+When the server gets the information from the client they are going to decode the Header and Payload using the algorithm specified in the header 
+and the secret key. This decoded part is then compared with the Signature to check whether the user is authorized. 
